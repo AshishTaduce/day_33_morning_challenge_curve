@@ -14,10 +14,3 @@ class _AnimatedDotsState extends State<AnimatedDots> {
     return Container();
   }
 }
-
-class JumpingCurve extends Curve {
-  @override
-  double transformInternal(double t) {
-    return 0;
-  }
-}
