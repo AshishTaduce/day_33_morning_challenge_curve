@@ -1,3 +1,4 @@
+print("Hello Ashish");
 import 'package:flutter/material.dart';
 
 void main() => runApp(AnimatedDots());
