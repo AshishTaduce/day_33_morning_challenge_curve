@@ -1,4 +1,4 @@
-print("Hello Ashish");
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(AnimatedDots());
@@ -12,5 +12,11 @@ class _AnimatedDotsState extends State<AnimatedDots> {
   @override
   Widget build(BuildContext context) {
     return Container();
+  }
+}
+class CustomCurve extends Curve {
+  @override
+  double transformInternal(double t) {
+    return 0;
   }
 }
