@@ -13,9 +13,9 @@ void main() {
     expect(myCurve.transform(0.3), Curves.ease.transform(0.5));
     expect(myCurve.transform(0.35), Curves.ease.transform(0.75));
     expect(myCurve.transform(0.4), 1);
-    expect(myCurve.transform(0.45),Curves.decelerate.transform(0.25));
+    expect(myCurve.transform(0.45),Curves.decelerate.transform(0.75));
     expect(myCurve.transform(0.5),Curves.decelerate.transform(0.5));
-    expect(myCurve.transform(0.55),Curves.decelerate.transform(0.75));
+    expect(myCurve.transform(0.55),Curves.decelerate.transform(0.25));
     expect(myCurve.transform(0.6), 0.0);
     expect(myCurve.transform(0.7), 0.0);
     expect(myCurve.transform(1.0), 0.0);
